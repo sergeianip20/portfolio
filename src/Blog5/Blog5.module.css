@@ -1,0 +1,31 @@
+.blog5 {
+    background: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog5_border {
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+
+}
+.blog5_title {
+    height: 10%;
+}
+.blog5_button {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+@media (max-width: 414px) {
+    .blog5_border {
+        width: 60%;
+        height: 60%;
+        border: 1px solid black;
+
+    }
+}

@@ -1,0 +1,17 @@
+.profile {
+    width: 900px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+}
+@media (max-width: 414px) {
+    .profile {
+        width: 90%;
+        display: block;
+        justify-content: normal;
+        height: 1000px;
+    }
+}
+

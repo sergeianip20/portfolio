@@ -1,0 +1,19 @@
+.myskile{
+    width:80%;
+    height:70%;
+    border:2px solid black;
+}
+.name{
+    width:100%;
+    height:30%;
+}
+.skile{
+    display:flex;
+    justify-content:space-between;
+}
+
+@media (max-width: 768px) {
+     .skile {
+         display: block;
+     }
+}

@@ -1,0 +1,15 @@
+.profileInfo {
+    width: 250px;
+    height: 150px;
+    background: gray;
+    color: white;
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+@media (max-width: 414px) {
+    .profileInfo {
+        background: none;
+    }
+}

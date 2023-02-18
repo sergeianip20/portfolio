@@ -1,0 +1,12 @@
+.myimage {
+    height: 100%;
+    width: 300px;
+    background: gray;
+}
+@media (max-width: 414px) {
+    .myimage {
+        width: 100%;
+        height: 1000px;
+
+    }
+}

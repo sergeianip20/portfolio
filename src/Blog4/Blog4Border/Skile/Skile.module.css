@@ -1,0 +1,45 @@
+.skile{
+    width:100%;
+    height:100%;
+    background-color:#555;
+}
+.see{
+    width:100%;
+    height:70%;
+    background:rgb(105,105,105);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.descrition{
+    background-color:white;
+    width:100%;
+    height:30%;
+}
+button{
+    background-color:#555;
+    padding: 5px 10px;
+}
+.name{
+    margin: 0px 0px  10px 15px;
+
+    display:flex;
+    justify-content:start;
+}
+.span{
+    background-color:#555;
+    font-weight:600;
+    padding:5px;
+}
+.descr{
+    width:80%;
+    background-color:#555;
+    height:50px;
+    margin:0px 0px 0px 15px;
+}
+
+@media(max-width: 400px){
+    .skile{
+        width:100%;
+        }
+}

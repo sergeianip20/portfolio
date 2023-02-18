@@ -1,0 +1,15 @@
+.oneskile{
+    width:250px;
+    height:489px;
+    margin: 15px;
+    background:white;
+}
+@media(max-width:768px){
+    .oneskile{
+        background:red;
+        width:100%;
+        margin: 10px 0px 0px 0px;
+
+        }
+}
+

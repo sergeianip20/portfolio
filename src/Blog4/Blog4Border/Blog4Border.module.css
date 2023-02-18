@@ -1,0 +1,31 @@
+.border{
+    width:80%;
+    border:1px solid black;
+    height:500px;
+}
+.job{
+   width:100%;
+    height:30%;
+    display:flex;
+    justify-content:center;
+}
+.faile{
+    width:100%;
+    height:70%;
+    border-top:1px solid black;
+    display:flex;
+    justify-content: space-between;
+}
+
+@media(max-width:414px){
+    .faile{
+        display:block;
+        height: 95%;
+        }
+    .job {
+        height: 5%;
+    }
+    .border {
+        margin: -500px 0px 0px 0px ;
+    }
+}
