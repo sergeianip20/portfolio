@@ -10,5 +10,7 @@
 @media (max-width: 412px) {
     .main {
         display: block;
+        justify-content: normal;
+        align-items: normal;
     }
 }
