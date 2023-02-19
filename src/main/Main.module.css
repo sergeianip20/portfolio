@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: row;
 }
-@media (max-width: 412px) {
+@media (min-width: 200px) and (max-width: 412px) {
     .main {
         display: block;
 

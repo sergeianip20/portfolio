@@ -6,11 +6,12 @@
     justify-content: space-around;
 
 }
-@media (max-width: 414px) {
+
+@media (min-width: 200px) and (max-width: 425px) {
     .profile {
-        width: 90%;
+        width: 80%;
         display: block;
-        justify-content: normal;
+     margin: 0px 0px 0px 10%;
         height: 100%;
     }
 }

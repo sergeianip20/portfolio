@@ -5,3 +5,8 @@
     align-items: start;
     justify-content: center;
 }
+@media (max-width: 414px) {
+    .Name {
+        font-size: 14px;
+    }
+}
