@@ -10,10 +10,8 @@
     .profile {
         width: 90%;
         display: block;
-        justify-content: center;
-        height: 100%;
+        justify-content: normal;
+        height: 1000px;
     }
 }
-
-
 
